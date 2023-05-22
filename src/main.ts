@@ -2,7 +2,7 @@ import 'zone.js/dist/zone';
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { bootstrapApplication } from '@angular/platform-browser';
-import { differenceInDays, formatDistance, intervalToDuration } from 'date-fns';
+import { differenceInDays, intervalToDuration } from 'date-fns';
 
 @Component({
   selector: 'my-app',
