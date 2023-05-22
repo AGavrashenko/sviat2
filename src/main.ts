@@ -10,7 +10,7 @@ import { differenceInDays, formatDistance, intervalToDuration } from 'date-fns';
   imports: [CommonModule],
   template: `
     <div class="p-2">
-      <h1>Святослав</h1>
+      <h1 class="display-3">Святослав</h1>
       <div>{{diffInWeeks}}</div>
       <div>{{duration}}</div>
     </div>
